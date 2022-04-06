@@ -159,7 +159,7 @@ const Formulario = ({ tareas, setTareas, tarea, setTarea }) => {
                 <input
                     type="submit"
                     className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors"
-                    value={ tarea.id ? 'Editar Paciente' : 'Agregar Paciente' }
+                    value={ tarea.id ? 'Editar Pendiente' : 'Agregar Pendiente' }
                 />
             </form>
         </div>
